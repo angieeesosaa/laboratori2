@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(193, 196, 178);
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_title{
+    font-size: 60px;
+    margin: 25px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+
+.header_menu-contenedor{
+    list-style: none;
+    font-family: cursive; 
+    justify-content: start;
+    font-size: 40px;
+}
+
+.header_menu:hover{
+    background-color: blue;
+    color: white;
+    transition: 550ms;
+}
+
+.header:hover{
+    background-color: navy;
+    color: white;
+    transition: 550ms;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 100px;
+    height: 260px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tarjeta img{
+    padding-left: 30px;
+    width: 90px;
+    
+
+}
+
+.tarjeta p{
+    text-align: justify;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.tarjeta:hover{
+    background-color: greenyellow;
+    color:white;
+    transition: 550ms;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: slateblue;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+.button:hover{
+    background-color: rgb(36, 103, 228);
+    color: black;
+    transition: 650ms;
+}
+
+.header_title2{
+    
+    font-size: 40px;
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.header_title2 img{
+    padding-left: 60px;
+    width: 20px;
+}
+
+.header_logoydescripcion{
+    background-color: blue;
+    color: white;
+    padding-top: 60px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header_logoydescripcion:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 550ms;
+}
+
+
+.header{
+    background-color: blue;
+    color: white;
+}
+.header:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 550ms;
+}
+
+.header_title2:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 550ms;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: slateblue;
+    border-radius: 8px;
+    padding: 10px;
+    justify-items: end;
+}

@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(19, 7, 189);
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    color: black;
+    font-size: 70px;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tarjeta{
+    border: 4px dotted black;
+    border-radius: 40px;
+    display: flex;
+    padding: 30px;
+    width: 400px;
+    height: 310px;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+
+.tarjeta img{
+    width: 150px;
+    border-radius: 85px;
+    margin-right: 20px;
+}
+
+.contenido h3{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.contenido p{
+    text-align: justify;
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
